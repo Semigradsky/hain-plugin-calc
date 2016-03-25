@@ -1,0 +1,25 @@
+{
+  "name": "hain-plugin-calc",
+  "version": "0.0.0",
+  "description": "Do a simple calculation in hain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Semigradsky <semigradskyd@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "calc",
+    "calculation",
+    "hain-plugin",
+    "hain0"
+  ],
+  "dependencies": {
+    "safe-eval": "0.2.0"
+  },
+  "hain": {
+    "prefix": "/calc",
+    "usage": "/calc expression",
+    "icon": "#fa fa-calculator"
+  }
+}
