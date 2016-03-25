@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-calc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Do a simple calculation in hain",
   "main": "index.js",
   "scripts": {
